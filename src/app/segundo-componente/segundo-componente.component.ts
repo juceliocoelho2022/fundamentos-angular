@@ -12,7 +12,7 @@ export class SegundoComponenteComponent {
   urlImagem = "/assets/aw3.png"
 
   mostrarDataNascimento() {
-    alert('A data de nascimento do João é: ${this.dataNascimento}')
+    alert(`A data de nascimento do João é: ${this.dataNascimento}`)
 
   }
 

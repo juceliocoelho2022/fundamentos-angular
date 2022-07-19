@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './componente-pai.component.html',
   styleUrls: ['./componente-pai.component.css']
 })
-export class ComponentePaiComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class ComponentePaiComponent  {
+    sobrenome = " da silva"
+ 
+    mostraNomeCompleto(nomeCompleto: any){
+      alert(`O nome completo é: ${nomeCompleto}`)
+    }
 }
