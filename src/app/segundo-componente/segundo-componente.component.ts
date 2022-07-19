@@ -9,5 +9,6 @@ export class SegundoComponenteComponent {
 
   nome = "João";
   dataNascimento ="1995-01-01";
+  urlImagem = "/assets/aw3.png"
 
 }
