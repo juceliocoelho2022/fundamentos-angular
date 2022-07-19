@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PrimeiroComponenteComponent } from './primeiro-componente/primeiro-componente.component';
 import { SegundoComponenteComponent } from './segundo-componente/segundo-componente.component';
+import { MultiplicarPorPipe } from './multiplicar-por.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     PrimeiroComponenteComponent,
-    SegundoComponenteComponent
+    SegundoComponenteComponent,
+    MultiplicarPorPipe
   ],
   imports: [
     BrowserModule,
